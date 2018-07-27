@@ -1,0 +1,37 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "full stack javaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miekmuras/portfolio.git"
+  },
+  "author": "Miroslav Muras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miekmuras/portfolio/issues"
+  },
+  "homepage": "https://github.com/miekmuras/portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint": "^5.2.0",
+    "eslint-plugin-react": "^7.10.0",
+    "nodemon": "^1.18.3",
+    "webpack": "^4.16.3"
+  }
+}
