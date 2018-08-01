@@ -1,1 +1,2 @@
-import './cofig';
+import config from './config';
+console.log('config');

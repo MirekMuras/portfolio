@@ -1,1 +1,1 @@
-var console = console.log('config');
+const env = process.env;
