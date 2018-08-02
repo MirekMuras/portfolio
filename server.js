@@ -1,3 +1,5 @@
-import config from './config';
+import config, {nodeEnv, logStars} from './config';
 
-console.log('config');
+console.log(config, nodeEnv);
+
+logStars('function');
