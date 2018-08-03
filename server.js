@@ -13,7 +13,7 @@ http.createServer((req, res) => {
 }).listen(1337, '127.0.0.1');
 */
 
-server.get(1337,(req, res) => {
+server.get('/',(req, res) => {
     res.render('index');
 };
 
